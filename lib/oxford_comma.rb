@@ -5,5 +5,8 @@ def oxford_comma(array)
     arr.push(array[count]+", ")
     count += 1
   end
-  arr.push(array[count]+ ", and ")
+  if count == array.length
+    arr.push(array[count])
+  else
+    arr.push(array[count]+ ", and ")
 end
