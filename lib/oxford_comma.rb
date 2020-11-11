@@ -3,7 +3,7 @@ def oxford_comma(array)
   count = 0
   if array.length == 2
     arr.push(array[0]+ " and " + array[1])
-    arr.join
+    return arr.join
   end
   while count < array.length - 1
     arr.push(array[count]+", ")
